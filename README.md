@@ -11,11 +11,11 @@ pkg install git -y
 ```
 3. Clone this repo
 ```
-git clone https://github.com/HackersXl/pakeetxl
+git clone https://github.com/PaketXL/paketxldor
 ```
 4. Open the folder
 ```
-cd pakeetxl
+cd paketxldor
 ```
 5. Setup
 ```
