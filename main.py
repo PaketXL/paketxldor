@@ -99,7 +99,7 @@ def show_main_menu(profile, total_remaining_quota, total_quota, is_unlimited):
     print("2. Lihat Anak Muda Dulu Saya")
     print(f"3. Beli Paket {bcolors.WARNING}🌟 HOT 🌟{bcolors.ENDC}")
     print(f"4. Beli Paket {bcolors.WARNING}🌟 HOT-2 🌟{bcolors.ENDC}")
-    print("5. Coli Anak Muda Ya Kawan Option Code")
+    print("5. Flex Mini (KARTU BIASA AJA")
     print("6. Coli Anak Muda Dulu Kawan Family Code")
     print("7. Beli Semua Paket di Family Code (loop)")
     print("8. Riwayat Transaksi")
@@ -173,7 +173,8 @@ def main():
             elif choice == "4":
                 show_hot_menu2()
             elif choice == "5":
-                get_packages_by_family("22cfa6c3-ba3f-4f4b-8837-e7fe247d7da8")
+                get_packages_by_family("9bab710b-6bcb-486b-980f-46f434c31bc4")
+            elif choice == "8":
                 option_code = input("Enter option code (or '99' to cancel): ")
                 if option_code == "99":
                     continue
